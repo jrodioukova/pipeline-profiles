@@ -12,6 +12,8 @@ import { mainTraffic } from "../traffic/trafficDashboard";
 import { mainApportion } from "../apportionment/apportionmentDashboard";
 // operations and maintenance activities
 import { mainOandM } from "../oandm/oandmDashboard";
+// tolls
+import { mainTolls } from "../tolls/tollsDashboard";
 
 // console.time(`first content loading`);
 bindToWindow();
@@ -39,6 +41,12 @@ export async function loadAllCharts(data, plains = false) {
       englishDashboard.incidents
     ),
     mainOandM(data.oandmData, englishDashboard.oandm),
+
+    mainTolls(
+      data.tollsData.tolls,
+      data.tollsData.meta,
+      englishDashboard.tolls
+    ),
   ];
 
   function plainsMidstreamProfile(lang, div) {

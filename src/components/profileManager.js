@@ -173,6 +173,79 @@ const profileSections = {
       apportion: false,
       safety: true,
     },
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  alliance: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: true },
+  },
+  tcpl: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  westcoast: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  emera_brunswick: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  maritimes_northeast: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  many_islands: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  tqm: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  vector: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  foothills: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  enbridge_mainline: {
+    sections: { traffic: true, apportion: true, safety: true, tolls: false },
+  },
+  keystone: {
+    sections: { traffic: true, apportion: true, safety: true, tolls: false },
+  },
+  trans_mountain: {
+    sections: { traffic: true, apportion: true, safety: true, tolls: false },
+  },
+  cochin: {
+    sections: { traffic: true, apportion: true, safety: true, tolls: false },
+  },
+  southern_lights: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  bakken: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  norman_wells: {
+    sections: { traffic: true, apportion: true, safety: true, tolls: false },
+  },
+  express_pipeline: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  trans_northern: {
+    sections: { traffic: true, apportion: false, safety: true, tolls: false },
+  },
+  genesis: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  montreal: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  westspur: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  aurora: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  milk_river: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
+  },
+  wascana: {
+    sections: { traffic: false, apportion: false, safety: true, tolls: false },
   },
 };
 
